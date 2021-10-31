@@ -5,6 +5,7 @@ const app = Vue.createApp({
           goals: [],
           toggler: 'Hide',
           toggle_btn: false,
+         
      };
     },
     methods:{
@@ -17,7 +18,7 @@ const app = Vue.createApp({
             if(this.toggle_btn === true){
               this.toggler = 'Show List'
             }else{
-              this.toggler = 'Hide'
+              this.toggler = 'Hide List'
             }
           }
     }

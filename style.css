@@ -21,7 +21,7 @@
   }
   
   #user-goals {
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.26);
     margin: 3rem;
     border-radius: 10px;
     padding: 1rem;
@@ -49,6 +49,7 @@
     padding: 0.5rem;
     color: #1f1f1f;
     border-radius: 25px;
+    box-shadow: 2px 2px 2px rgba(4, 0, 0, 0.26);
   }
   
   #user-goals input {
@@ -65,20 +66,18 @@
   #user-goals button {
     font: inherit;
     cursor: pointer;
-    border: 1px solid #ff0077;
+    border: 1px solid #3f192b;
     background-color: #ff0077;
     color: white;
     padding: 0.05rem 1rem;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
   }
   
-  #user-goals button:hover,
-  #user-goals button:active {
-    background-color: #ee094d;
-    border-color: #ee0e55;
-    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
+  #user-goals button:hover
+  /* #user-goals button:active */
+   {
+    background-color: #380313;
+    border-color: #b91515;
+    box-shadow: 1px 1px 4px rgba(0, 0, 5, 0.26);
   }
-  ul li {
-      background-color: #1b995e;
-      color:#d7fdeb;
-  }
+  
