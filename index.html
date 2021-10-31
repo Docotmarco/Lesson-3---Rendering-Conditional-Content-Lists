@@ -19,11 +19,14 @@
     <section id="user-goals">
       <h2>My course goals</h2>
       <input type="text" v-model="entergoalvalue" />
-      <button @click="addgoal">Add Goal</button>
+      <button @click="add_goal">Add Goal</button>
       <p v-if="goals.length=== 0">No goals have been added yet - please start adding some!</p>
-      <ul>
-        <li>Goal</li>
+      <ul v-else v-show="toggle_btn === false">
+        <li  v-for="task in goals" :key="task">{{ task }}</li>
       </ul>
+      <br>
+      <br>
+      <button @click="tog_btn">{{toggler}}</button>
     </section>
   </body>
 </html>

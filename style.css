@@ -78,3 +78,7 @@
     border-color: #ee0e55;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.26);
   }
+  ul li {
+      background-color: #1b995e;
+      color:#d7fdeb;
+  }
